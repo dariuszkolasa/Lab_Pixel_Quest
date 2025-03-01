@@ -11,7 +11,7 @@ public class GeoController : MonoBehaviour
     int Number = 3;
     private Rigidbody2D rb;
     public int speed = 5;
-    public string nextLevel = "Scene_1";
+    public string nextLevel = "Scene 2";
     // Start is called before the first frame update
     void Start()
     {

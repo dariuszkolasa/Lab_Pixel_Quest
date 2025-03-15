@@ -10,6 +10,7 @@ public class GeoController : MonoBehaviour
     string String = "Hello ";
     int Number = 3;
     private Rigidbody2D rb;
+    public SpriteRenderer spr;
     public int speed = 5;
     public string level2 = "Scene 2";
     public string level3 = "Scene 3";
@@ -26,6 +27,7 @@ public class GeoController : MonoBehaviour
         Debug.Log(String + String2);
         Debug.Log(transform.position);
         rb = GetComponent<Rigidbody2D>();
+        spr = GetComponent<SpriteRenderer>();
 
     }
 
@@ -63,7 +65,24 @@ public class GeoController : MonoBehaviour
         //Debug.Log(xInput);
         rb.velocity = new Vector3(xInput * speed, rb.velocity.y);
 
-       
+        if (Input.GetKeyDown(KeyCode.Alpha1)) 
+        {
+            spr.color = Color.yellow;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha2)) 
+        {
+            spr.color = Color.red;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha3)) 
+        {
+            spr.color = Color.blue;
+        }
+
+
+
+
 
     }
 

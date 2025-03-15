@@ -15,7 +15,8 @@ public class GeoController : MonoBehaviour
     public string level3 = "Scene 3";
     public string level4 = "Scene 4";
     public string level5 = "Scene 5";
-
+    public string level6 = "Scene 6";
+    public string level7 = "Scene 7";
 
     // Start is called before the first frame update
     void Start()
@@ -62,6 +63,7 @@ public class GeoController : MonoBehaviour
         //Debug.Log(xInput);
         rb.velocity = new Vector3(xInput * speed, rb.velocity.y);
 
+       
 
     }
 
@@ -95,6 +97,17 @@ public class GeoController : MonoBehaviour
             case "Finish 4":
                 {
                     SceneManager.LoadScene(level5);
+                    break;
+                }
+            case "Finish 5":
+                {
+                    SceneManager.LoadScene(level6);
+                    break;
+
+                }
+            case "Finish 6":
+                {
+                    SceneManager.LoadScene(level7);
                     break;
                 }
 

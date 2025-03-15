@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: 99577282}
   m_Layer: 0
   m_Name: Hexagon Flat-Top
-  m_TagString: Finish
+  m_TagString: Finish 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -586,7 +586,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  nextLevel: Scene 2
+  level2: Scene 2
+  level3: Scene 3
+  level4: Scene 4
+  level5: Scene 5
 --- !u!212 &695076300
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -876,7 +879,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.49056602, g: 0.0763617, b: 0.31982586, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1060,7 +1063,7 @@ Transform:
   m_GameObject: {fileID: 2142700352}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.08, y: -0.4739814, z: -0.0014697434}
+  m_LocalPosition: {x: 20.69, y: -0.4739814, z: -0.0014697434}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1157,7 +1160,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7821686645770063250, guid: e17d32f1f4c7f3b4288a10f04b2a4c6c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.17
+      value: 1.57
       objectReference: {fileID: 0}
     - target: {fileID: 7821686645770063250, guid: e17d32f1f4c7f3b4288a10f04b2a4c6c, type: 3}
       propertyPath: m_LocalPosition.y
